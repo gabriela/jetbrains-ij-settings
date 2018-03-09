@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="PrintSettings">
+    <option name="PAPER_SIZE" value="Letter" />
+    <option name="FONT_NAME" value="Lucida Console" />
+    <option name="FONT_SIZE" value="7" />
+    <option name="BOTTOM_MARGIN" value="0.5" />
+    <option name="LEFT_MARGIN" value="0.5" />
+    <option name="RIGHT_MARGIN" value="0.5" />
+    <option name="DRAW_BORDER" value="false" />
+    <option name="FOOTER_HEADER_TEXT1" value="$FILE$" />
+    <option name="FOOTER_HEADER_FONT_SIZE" value="7" />
+    <option name="FOOTER_HEADER_FONT_NAME" value="Arial Black" />
+  </component>
+</application>
+
