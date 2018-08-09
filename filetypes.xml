@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="core/utils" type="Native" />
       <mapping ext="jhs" type="Native" />
       <mapping ext="plist" type="PLAIN_TEXT" />
       <mapping ext="xcf" type="PLAIN_TEXT" />
