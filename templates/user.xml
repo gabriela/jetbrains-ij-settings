@@ -1,17 +1,12 @@
 <templateSet group="user">
-  <template name="ngjs-object" value="'use strict';&#10;&#10;export class Class {&#10;&#10;    constructor(){&#10;        &#10;    }&#10;&#10;}&#10;&#10;Class.$inject = [''];" description="Angular object injection" toReformat="true" toShortenFQNames="true">
+  <template name="ngmod" value="import * as angular from 'angular';&#10;import {IModule} from 'angular';&#10;&#10;export const Module: IModule = angular.module('', []);" description="AngularJS Typescript module" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ngjs-module" value="'use strict';&#10;&#10;import 'vendor/angular/angular';&#10;&#10;const module = angular.module('', []);&#10;&#10;export const Module = module.name;" description="Angular module definition" toReformat="true" toShortenFQNames="true">
+  <template name="ngfact" value="import {Inject} from '../../utils/app-utils';&#10;&#10;@Inject()&#10;export class Factory {&#10;&#10;    constructor(){}&#10;&#10;}" description="AngularJS Typescript factory" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JS_EXPRESSION" value="true" />
-    </context>
-  </template>
-  <template name="ngjs-component" value="'use strict';&#10;&#10;class Component {&#10;&#10;    constructor() {&#10;&#10;    }&#10;&#10;}&#10;&#10;Component.$inject = [''];&#10;&#10;export default {&#10;    template: require('./'),&#10;    controller: Component,&#10;    controllerAs: 'ctrl',&#10;    bindings: {}&#10;};" description="Angular component definition" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
