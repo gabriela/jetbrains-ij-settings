@@ -13,5 +13,6 @@
     <mask>*.mxml</mask>
     <mask>*.*</mask>
     <mask>*.html</mask>
+    <mask>*.proper*</mask>
   </component>
 </application>
