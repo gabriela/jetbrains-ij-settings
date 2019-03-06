@@ -6,6 +6,7 @@
       <mapping ext="map" type="PLAIN_TEXT" />
       <mapping pattern="account-status-summary" type="TypeScript" />
       <mapping pattern="supplyScores" type="TypeScript" />
+      <mapping ext="xlf" type="XML" />
     </extensionMap>
   </component>
 </application>
