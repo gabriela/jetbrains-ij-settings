@@ -22,6 +22,7 @@
     <option name="ARRAY_INITIALIZER_WRAP" value="1" />
     <option name="ASSIGNMENT_WRAP" value="1" />
     <option name="ASSERT_STATEMENT_WRAP" value="1" />
+    <option name="FIELD_ANNOTATION_WRAP" value="5" />
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="CALL_PARAMETERS_WRAP" value="1" />
