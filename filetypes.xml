@@ -1,13 +1,17 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <removed_mapping pattern=".editorconfig" type="EditorConfig" />
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
-      <mapping ext="map" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
+      <mapping ext="map" type="PLAIN_TEXT" />
       <mapping pattern="account-status-summary" type="TypeScript" />
       <mapping pattern="supplyScores" type="TypeScript" />
       <mapping ext="xlf" type="XML" />
+      <removed_mapping pattern=".editorconfig" type="EditorConfig" />
     </extensionMap>
   </component>
 </application>
